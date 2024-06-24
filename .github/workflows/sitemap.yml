@@ -2,7 +2,7 @@ name: Process Sitemap
 
 on:
   schedule:
-    - cron: '0 */2 * * *'  # Substitua X pelo intervalo desejado em horas, por exemplo, 2 para cada 2 horas
+    - cron: '0 */2 * * *'  # Substitua 2 pelo intervalo desejado em horas
 
 jobs:
   run-script:
