@@ -2,7 +2,7 @@ name: Process Sitemap
 
 on:
   schedule:
-    - cron: '0 */2 * * *'  # Substitua 2 pelo intervalo desejado em horas
+    - cron: '0 */1 * * *'  # Substitua 2 pelo intervalo desejado em horas
   workflow_dispatch:  # Adicione esta linha para permitir a execução manual
 
 jobs:
