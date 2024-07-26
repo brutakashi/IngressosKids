@@ -1,8 +1,8 @@
 name: Process Sitemap
 
 on:
-  schedule:
-    - cron: '*/15 * * * *'  # Executa a cada 15 minutos
+  #schedule:
+  #  - cron: '*/15 * * * *'  # Executa a cada 15 minutos
   workflow_dispatch:  # Adicione esta linha para permitir a execução manual
 
 jobs:
